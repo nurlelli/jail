@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+@mixin btn {
+  width: 222px;
+  height: 48px;
+  background: #FD8415;
+  cursor: pointer;
+  border-radius: 15px;
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFFFFF;
+  transition: .4s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+@mixin btn2 {
+  width: 64px;
+  height: 48px;
+  background: #E1720C;
+  border-radius: 0 15px 15px 0;
+}
