@@ -19,11 +19,11 @@ a {
   background: url("../img/moun.png") no-repeat center/cover;
   min-height: 100vh;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  padding: 100px 0;
+  padding: 50px 0;
 }
 #header .header-general__images {
   text-align: center;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 #header .header-general__images h1 {
   font-family: "New Tegomin", sans-serif;
@@ -55,6 +55,7 @@ a {
   color: #FFFFFF;
 }
 #header .header-general__block {
+  scroll-behavior: smooth;
   display: flex;
   justify-content: space-between;
 }
@@ -73,11 +74,11 @@ a {
   padding-left: 15px;
   color: white;
 }
-#header .header-general__wid div h1 {
+#header .header-general__tit h2 {
   font-family: "Playfair Display", sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
+  font-weight: 200;
+  font-size: 34px;
   color: #FFFFFF;
 }
 
@@ -96,6 +97,9 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+#hero .hero-general__titles div {
+  margin-bottom: 50px;
+}
 #hero .hero-general__titles div h1 {
   font-family: "New Tegomin", sans-serif;
   font-style: normal;
@@ -109,9 +113,54 @@ a {
   font-weight: 400;
   font-size: 24px;
   color: #FD8415;
-  margin-bottom: 30px;
 }
 #hero .hero-general__titles div span {
+  text-align: center;
+}
+#hero .hero-general__titles--les {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+#hero .hero-general__titles--les h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  color: #FD8415;
+}
+#hero .hero-general__titles--les div p {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FD8415;
+}
+#hero .hero-general__titles--les div span {
+  text-align: center;
+}
+#hero .hero-general__titles--les__last {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+#hero .hero-general__titles--les__last h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  color: #FD8415;
+}
+#hero .hero-general__titles--les__last p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FD8415;
+}
+#hero .hero-general__titles--les__last span {
   text-align: center;
 }
 #hero .hero-general__with h1 {
@@ -155,6 +204,14 @@ a {
   border: 1px solid #FD8415;
   border-radius: 50%;
 }
+#hero .hero-general__with__box p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #FFFFFF;
+  border: 1px solid #FD8415;
+}
 
 #cold {
   background: url("../img/moun.png") no-repeat center/cover;
@@ -195,8 +252,19 @@ a {
   border: 1px solid #FFFFFF;
   margin-bottom: 90px;
 }
+#cold .cold-general__when a {
+  font-family: "Nikukyu", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+#cold .cold-general__when span {
+  color: white;
+  padding-left: 5px;
+}
 #cold .cold-general__tit {
-  adding-top: 100px;
+  padding-top: 100px;
 }
 #cold .cold-general__tit h1 {
   font-family: "Playfair Display", sans-serif;
@@ -225,9 +293,15 @@ a {
   font-size: 20px;
   color: #FFFFFF;
   transition: 0.4s;
+  margin-bottom: 90px;
 }
 #cold .cold-general__tit button:hover {
   transform: scale(1.1);
+}
+#cold .cold-general__icons {
+  position: absolute;
+  top: 330px;
+  left: 170px;
 }
 #cold .cold-general__icons div {
   padding-top: 30px;
@@ -296,6 +370,7 @@ a {
   font-size: 20px;
   color: #FFFFFF;
   transition: 0.4s;
+  margin-bottom: 90px;
 }
 #water .water-general__box button:hover {
   transform: scale(1.1);
@@ -335,9 +410,9 @@ a {
 }
 
 #world {
-  background: url("../img/snow.png") no-repeat center/cover;
+  background: url("../img/horse.png") no-repeat center/cover;
   min-height: 100vh;
-  padding-top: 50px;
+  padding: 100px 0;
 }
 #world .world-general h1 {
   font-family: "Playfair Display", sans-serif;
@@ -355,7 +430,6 @@ a {
   font-size: 27px;
   color: #FFFFFF;
   margin-bottom: 50px;
-  text-align: center;
 }
 #world .world-general__box button {
   width: 222px;
@@ -369,14 +443,53 @@ a {
   font-size: 20px;
   color: #FFFFFF;
   transition: 0.4s;
+  margin-bottom: 90px;
 }
 #world .world-general__box button:hover {
   transform: scale(1.1);
 }
+#world .world-general__box img {
+  position: absolute;
+  top: 5030px;
+  left: 500px;
+}
+#world .world-general__box__photo {
+  position: absolute;
+  bottom: 750px;
+  left: 400px;
+}
+#world .world-general__fly {
+  padding-top: 50px;
+}
+#world .world-general__block {
+  position: absolute;
+  top: 5450px;
+  left: 500px;
+  margin-bottom: 20px;
+}
+#world .world-general__low {
+  padding-top: 40px;
+}
+#world .world-general button {
+  position: absolute;
+  top: 5420px;
+  left: 920px;
+  width: 352px;
+  height: 354px;
+  background: #FD8415;
+  border-radius: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+}
 
 .swiper {
-  width: 1200px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
 }
 
 .swiper-slide {
@@ -403,6 +516,186 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+#point {
+  background: url("../img/rain.png") no-repeat center/cover;
+  min-height: 100vh;
+  padding-top: 100px;
+}
+#point .point-general h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#point .point-general__blocks {
+  width: 463px;
+  height: 520px;
+  border: 2px solid #FD8415;
+  border-radius: 15px;
+  padding: 30px 30px;
+}
+#point .point-general__blocks div {
+  display: flex;
+  align-items: center;
+}
+#point .point-general__blocks h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+#point .point-general__blocks h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  color: #FFFFFF;
+  padding-top: 30px;
+}
+#point .point-general__blocks span h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+#point .point-general__blocks span p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+
+#fast {
+  background: url("../img/cold.png") no-repeat center/cover;
+  min-height: 100vh;
+  padding: 100px;
+}
+#fast .fast-general h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 650;
+  font-size: 50px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#fast .fast-general__title {
+  display: flex;
+}
+#fast .fast-general__title h5 {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  color: #FFFFFF;
+}
+#fast .fast-general__title h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  color: #FFFFFF;
+  padding-left: 16rem;
+  margin-bottom: 60px;
+}
+#fast .fast-general__titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+#fast .fast-general__titles h3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+#fast .fast-general__tit {
+  width: 1150px;
+  height: 6.07px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  margin-bottom: 60px;
+}
+#fast .fast-general__block div {
+  margin-bottom: 30px;
+}
+#fast .fast-general__block div p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 35px;
+}
+#fast .fast-general__block div input {
+  width: 400px;
+  height: 66px;
+  border: 2px solid #FD8415;
+  border-radius: 30px;
+  padding-left: 40px;
+  margin-left: 340px;
+}
+#fast .fast-general__block button {
+  width: 430px;
+  height: 66px;
+  background: #FD8415;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-left: 340px;
+}
+#fast .fast-general__block button:hover {
+  transform: scale(1.1);
+}
+
+#close {
+  background: #FD8415;
+  padding: 30px 0;
+}
+#close .close-general__titles {
+  display: flex;
+  justify-content: space-between;
+}
+#close .close-general__titles img {
+  padding-left: 25px;
+}
+#close .close-general__titles h1 {
+  font-family: "New Tegomin", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+#close .close-general__titles__tit a {
+  font-family: "New Tegomin", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding: 0 90px;
+}
+#close .close-general__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#close .close-general__icons span {
+  color: white;
+  font-size: 23px;
+  padding: 0 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

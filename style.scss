@@ -8,12 +8,12 @@
   background: url("../img/moun.png") no-repeat center/cover;
   min-height: 100vh;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  padding: 100px 0;
+  padding: 50px 0;
 
   .header-general {
     &__images {
       text-align: center;
-      padding-top: 200px;
+      padding-top: 100px;
 
       h1 {
         font-family: 'New Tegomin', sans-serif;
@@ -52,6 +52,7 @@
     }
 
     &__block {
+      scroll-behavior: smooth;
       display: flex;
       justify-content: space-between;
     }
@@ -71,16 +72,17 @@
         padding-left: 15px;
         color: white;
       }
+    }
 
-      div {
-        h1 {
-          font-family: 'Playfair Display', sans-serif;
-          font-style: normal;
-          font-weight: 400;
-          font-size: 36px;
-          color: #FFFFFF;
-        }
+    &__tit {
+      h2 {
+        font-family: 'Playfair Display', sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 34px;
+        color: #FFFFFF;
       }
+
     }
   }
 }
@@ -103,6 +105,8 @@
       align-items: center;
 
       div {
+        margin-bottom: 50px;
+
         h1 {
           font-family: 'New Tegomin', sans-serif;
           font-style: normal;
@@ -117,13 +121,70 @@
           font-weight: 400;
           font-size: 24px;
           color: #FD8415;
-          margin-bottom: 30px;
         }
 
         span {
           text-align: center;
         }
       }
+
+      &--les {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+
+        h2 {
+          font-family: 'Playfair Display', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 80px;
+          color: #FD8415;
+        }
+
+        div {
+          p {
+            font-family: 'Playfair Display', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            color: #FD8415;
+          }
+
+          span {
+            text-align: center;
+          }
+        }
+
+        &__last {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 50px;
+
+          h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 96px;
+            color: #FD8415;
+          }
+
+          p {
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            color: #FD8415;
+          }
+
+          span {
+            text-align: center;
+          }
+        }
+      }
+
+
     }
 
     &__with {
@@ -177,7 +238,19 @@
           }
         }
       }
+
+      &__box {
+        p {
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          color: #FFFFFF;
+          border: 1px solid #FD8415;
+        }
+      }
     }
+
   }
 }
 
@@ -209,6 +282,7 @@
           margin-bottom: 30px;
         }
       }
+
     }
 
     &__nav {
@@ -229,8 +303,23 @@
       }
     }
 
+    &__when {
+      a {
+        font-family: 'Nikukyu', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #FFFFFF;
+      }
+
+      span {
+        color: white;
+        padding-left: 5px;
+      }
+    }
+
     &__tit {
-      adding-top: 100px;
+      padding-top: 100px;
 
       h1 {
         font-family: 'Playfair Display', sans-serif;
@@ -255,6 +344,10 @@
     }
 
     &__icons {
+      position: absolute;
+      top: 330px;
+      left: 170px;
+
       div {
         padding-top: 30px;
         color: white;
@@ -368,9 +461,9 @@
 }
 
 #world {
-  background: url("../img/snow.png") no-repeat center/cover;
+  background: url("../img/horse.png") no-repeat center/cover;
   min-height: 100vh;
-  padding-top: 50px;
+  padding: 100px 0;
 
   .world-general {
     h1 {
@@ -391,20 +484,49 @@
         font-size: 27px;
         color: #FFFFFF;
         margin-bottom: 50px;
-        text-align: center;
       }
-
       button {
         @include btn()
       }
+
+      img {
+        position: absolute;
+        top: 5030px;
+        left: 500px;
+      }
+
+      &__photo {
+        position: absolute;
+        bottom: 750px;
+        left: 400px;
+      }
+
     }
+
+    &__fly {
+      padding-top: 50px;
+    }
+
+    &__block {
+      position: absolute;
+      top: 5450px;
+      left: 500px;
+      margin-bottom: 20px;
+    }
+
+    &__low {
+      padding-top: 40px;
+    }
+button {
+  @include btn2()
+}
 
   }
 }
 
 .swiper {
-  width: 1200px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
 }
 
 .swiper-slide {
@@ -432,4 +554,230 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+#point {
+  background: url("../img/rain.png") no-repeat center/cover;
+  min-height: 100vh;
+  padding-top: 100px;
+
+  .point-general {
+    h1 {
+      font-family: 'Playfair Display', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      color: #FFFFFF;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    &__blocks {
+      width: 463px;
+      height: 520px;
+      border: 2px solid #FD8415;
+      border-radius: 15px;
+      padding: 30px 30px;
+
+      div {
+        display: flex;
+        align-items: center;
+      }
+
+      h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        color: #FFFFFF;
+
+      }
+
+      h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        color: #FFFFFF;
+        padding-top: 30px;
+      }
+
+      span {
+        h2 {
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 30px;
+          color: #FFFFFF;
+          margin-left: 20px;
+        }
+
+        p {
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 24px;
+          color: #FFFFFF;
+          margin-left: 20px;
+
+        }
+      }
+
+    }
+
+  }
+}
+
+#fast {
+  background: url("../img/cold.png") no-repeat center/cover;
+  min-height: 100vh;
+  padding: 100px;
+
+  .fast-general {
+    h1 {
+      font-family: 'Playfair Display', sans-serif;
+      font-style: normal;
+      font-weight: 650;
+      font-size: 50px;
+      color: #FFFFFF;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    &__title {
+      display: flex;
+
+      h5 {
+        font-family: 'Playfair Display', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        color: #FFFFFF;
+      }
+
+      h2 {
+        font-family: 'Playfair Display', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        color: #FFFFFF;
+        padding-left: 16rem;
+        margin-bottom: 60px;
+      }
+    }
+
+    &__titles {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+
+      h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        color: #FFFFFF;
+      }
+    }
+
+    &__tit {
+      width: 1150px;
+      height: 6.07px;
+      background: #FFFFFF;
+      border-radius: 5px;
+      margin-bottom: 60px;
+    }
+
+    &__block {
+      div {
+        margin-bottom: 30px;
+
+        p {
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 32px;
+          text-align: center;
+          color: #FFFFFF;
+          margin-bottom: 35px;
+        }
+      }
+
+      div {
+
+        input {
+          width: 400px;
+          height: 66px;
+          border: 2px solid #FD8415;
+          border-radius: 30px;
+          padding-left: 40px;
+          margin-left: 340px;
+        }
+      }
+
+      button {
+        width: 430px;
+        height: 66px;
+        background: #FD8415;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: .4s;
+        margin-left: 340px;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}
+
+#close {
+  background: #FD8415;
+  padding: 30px 0;
+
+  .close-general {
+    &__titles {
+      display: flex;
+      justify-content: space-between;
+
+      img {
+        padding-left: 25px;
+      }
+
+      h1 {
+        font-family: 'New Tegomin', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #FFFFFF;
+      }
+
+      &__tit {
+
+        a {
+          font-family: 'New Tegomin', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          color: #FFFFFF;
+          padding: 0 90px;
+        }
+      }
+
+    }
+
+    &__icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      span {
+        color: white;
+        font-size: 23px;
+        padding: 0 30px;
+      }
+    }
+  }
 }
