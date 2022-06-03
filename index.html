@@ -10,6 +10,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
 
@@ -28,9 +29,12 @@
                     <h1>UX/UI</h1>
                     <p>2022</p>
                 </div>
-                <div class="header-general__wid">
-                    <span><i class="fa-solid fa-arrow-down-long"></i></span>
-                </div>
+
+                    <div class="header-general__wid">
+                        <span><i class="fa-solid fa-arrow-down-long"></i></span>
+                    </div>
+
+
                 <div class="header-general__tit">
                     <h2>Şeker Portakal</h2>
                 </div>
@@ -76,15 +80,16 @@
                 <h1>Цвет</h1>
 
                 <div class="hero-general__with__block">
+
                     <div>
                         <p>#FD8415</p>
                         <div></div>
                     </div>
 
 
-                    <div class="hero-general__with--block__box">
-                        <p>#FFFFFF</p>
-                        <div></div>
+                    <div>
+                        <p class="hero-desc">#FFFFFF</p>
+                        <div class="hero-top"></div>
                     </div>
 
                     <div>
@@ -156,7 +161,7 @@
             <div class="water-general__block">
                 <div>
                     <h1>О нас</h1>
-                    <img src="./img/custom.png" alt="" data-aos="fade-up-right">
+                    <img src="./img/custom.png" alt="" data-aos="fade-up-right"  class="water-general__block--rose">
 
                 </div>
 
@@ -186,14 +191,14 @@
                     <button>Ещё</button>
                 </div>
                 <div>
-                    <img src="./img/gorgeous.png" alt="" data-aos="fade-up-left">
+                    <img src="./img/gorgeous.png" alt=""  data-aos="fade-u-pleft" class="img-general1">
                 </div>
             </div>
 
 
             <div class="water-general__text">
                 <div>
-                    <img src="./img/photo.png" alt=""  data-aos="flip-up">
+                    <img src="./img/photo.png" alt="" data-aos="flip-up">
                 </div>
                 <div class="water-general__text__inside">
                     <h1>Язык</h1>
@@ -205,8 +210,8 @@
                     <p>авторские туры <br>
                         Скидки на профессиональные <br> фотосессии для ваших друзей</p>
                 </div>
-                <div>
-                    <img src="./img/car.png" alt=""  data-aos="flip-down">
+                <div class="water-img2">
+                    <img src="./img/car.png" alt="" data-aos="flip-down">
                 </div>
             </div>
         </div>
@@ -216,28 +221,29 @@
 <section id="world">
     <div class="container">
         <div class="world-general">
-
             <h1>Галерея</h1>
-            <div class="world-general__box">
-                <div>
-                    <h6>Исследуйте самое <br> красивое место в мире</h6>
-                    <button>Ещё</button>
 
-                    <img src="./img/nice.png" alt=""  data-aos="flip-up">
-                    <div class="world-general__box__photo">
-                        <img src="./img/slo.png" alt="" data-aos="fade-down-left"></div>
+            <div class="world-general__block">
+                <div class="world-general__block--photo">
+                    <h2>Исследуйте самое <br> красивое место в мире</h2>
+                   <button>Ещё </button>
+
+                        <img src="./img/flower.png" alt="" class="img-gen1"  data-aos="fade-right">
+                        <img src="./img/poi.png" alt="" data-aos="fade-up-right">
+
+                </div>
+                <div class="img-gen2">
+                    <img src="./img/gorgeous.png" alt="" class="img-gen3"  data-aos="flip-left">
+                    <img src="./img/visit.png" alt="" class="img-gen3" data-aos="flip-up">
+                </div >
+                <div class="images-gen">
+                    <img src="./img/slo.png" alt="" class="img-gen4" data-aos="fade-left">
+                    <div class="world-general__block--photo__sit">
+                        <h1>
+                            Здесь может <br> быть ваше фото:)</h1>
+                        </div>
                 </div>
             </div>
-            <div class="world-general__fly">
-                <img src="./img/flower.png" alt=""  data-aos="fade-down-right">
-            </div>
-            <div class="world-general__block">
-                <img src="./img/visit.png" alt=""  data-aos="flip-down">
-            </div>
-            <div class="world-general__low">
-                <img src="./img/poi.png" alt=""  data-aos="fade-up-right">
-            </div>
-            <button>Здесь может быть <br> ваше фото:)</button>
         </div>
     </div>
 </section>
@@ -245,69 +251,230 @@
 <section id="point">
     <div class="container">
         <div class="point-general">
-            <div>
-                <h1>Отзывы</h1>
-            </div>
-
+            <h1>Отзывы</h1>
 
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+                    <div class="swiper-slide1">
 
-                        <div class="point-general__blocks">
+                        <div class="swiper-tit1">
+                        <div class="swiper-img1">
+                            <img src="./img/Ellipse%204.png" alt="">
                             <div>
-                                <img src="./img/Ellipse%204.png" alt="">
-                                <span>
-                            <h2>Абдиев А.</h2>
-                            <p>Август  2020</p>
-                        </span>
+                                <h3>Абдиев А.</h3>
+                                <h2>Август 2020</h2>
+                            </div>
+
+
+                        </div>
+
+                        <p>Здравствуйте дорогие мои <br>
+                            друзья! В этой строке <br>
+                            отзывов я хочу написать <br>
+                            о своих ощущениях в походе <br>
+                            из ущ.Чункурчак в <br>
+                            ущ.Бирбулак (Малиновое). <br>
+                            Туда я пошла с группой <br>
+                            собранным "Союз пешеходного <br>
+                            туризма Кыргызстана" и <br>
+                            гидом предоставленным <br>
+                            фирмой. По началу мне <br>]
+                            казалось не таким уж и <br>
+                            интересным,но.... когда <br>
+                            мы перевалили первый перевал <br>
+                            (!) я поняла что все <br>
+                            интересное только начинается,<br>
+                            так как открылся прекраснейший <br>
+                            вид на все горы нашей родины!</p>
+                    </div>
+                        <div class="swiper-tit1">
+                            <div class="swiper-img1">
+                                <img src="./img/Ellipse%205.png" alt="">
+                                <div>
+                                    <h3>Орозбаев Л.</h3>
+                                    <h2>Октябрь  2021</h2>
+                                </div>
+
 
                             </div>
-                            <h1>Здравствуйте дорогие мои <br>
+
+                            <p>В ходе нашей экспедиции <br>
+                                по Кыргызстану заезжали в <br>
+                                национальный парк Ала- <br>
+                                Арча, хорошо прогулялись, <br>
+                                покормили птичек и <br>
+                                пушистую белочку, тропинка <br>
+                                до начала плато зимой <br>
+                                расчищена, путь лёгок и <br>
+                                комфортен, можно <br> полюбоваться видами.</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide1">
+                        <div class="swiper-tit1">
+                            <div class="swiper-img1">
+                                <img src="./img/Ellipse%204.png" alt="">
+                                <div>
+                                    <h3>Абдиев А.</h3>
+                                    <h2>Август 2020</h2>
+                                </div>
+
+
+                            </div>
+
+                            <p>Здравствуйте дорогие мои <br>
                                 друзья! В этой строке <br>
-                                отзывов я хочу написать о <br>
-                                своих ощущениях в походе <br>
+                                отзывов я хочу написать <br>
+                                о своих ощущениях в походе <br>
                                 из ущ.Чункурчак в <br>
                                 ущ.Бирбулак (Малиновое). <br>
                                 Туда я пошла с группой <br>
-                                собранным "Союз <br>
-                                пешеходного туризма <br>
-                                Кыргызстана" и гидом <br>
-                                предоставленным фирмой. </h1>
+                                собранным "Союз пешеходного <br>
+                                туризма Кыргызстана" и <br>
+                                гидом предоставленным <br>
+                                фирмой. По началу мне <br>]
+                                казалось не таким уж и <br>
+                                интересным,но.... когда <br>
+                                мы перевалили первый перевал <br>
+                                (!) я поняла что все <br>
+                                интересное только начинается,<br>
+                                так как открылся прекраснейший <br>
+                                вид на все горы нашей родины!</p>
+                        </div>
+                        <div class="swiper-tit1">
+                            <div class="swiper-img1">
+                                <img src="./img/Ellipse%205.png" alt="">
+                                <div>
+                                    <h3>Орозбаев Л.</h3>
+                                    <h2>Октябрь  2021</h2>
+                                </div>
 
+
+                            </div>
+
+                            <p>В ходе нашей экспедиции <br>
+                                по Кыргызстану заезжали в <br>
+                                национальный парк Ала- <br>
+                                Арча, хорошо прогулялись, <br>
+                                покормили птичек и <br>
+                                пушистую белочку, тропинка <br>
+                                до начала плато зимой <br>
+                                расчищена, путь лёгок и <br>
+                                комфортен, можно <br> полюбоваться видами.</p>
                         </div>
                     </div>
-                    <div class="swiper-slide"></div>
-                    <div class="swiper-slide"></div>
-                    <div class="swiper-slide"></div>
-                    <div class=\swiper-slide"></div>
+                    <div class="swiper-slide1">
+                        <div class="swiper-tit1">
+                        <div class="swiper-img1">
+                            <img src="./img/Ellipse%204.png" alt="">
+                            <div>
+                                <h3>Абдиев А.</h3>
+                                <h2>Август 2020</h2>
+                            </div>
 
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+
+                        </div>
+
+                        <p>Здравствуйте дорогие мои <br>
+                            друзья! В этой строке <br>
+                            отзывов я хочу написать <br>
+                            о своих ощущениях в походе <br>
+                            из ущ.Чункурчак в <br>
+                            ущ.Бирбулак (Малиновое). <br>
+                            Туда я пошла с группой <br>
+                            собранным "Союз пешеходного <br>
+                            туризма Кыргызстана" и <br>
+                            гидом предоставленным <br>
+                            фирмой. По началу мне <br>]
+                            казалось не таким уж и <br>
+                            интересным,но.... когда <br>
+                            мы перевалили первый перевал <br>
+                            (!) я поняла что все <br>
+                            интересное только начинается,<br>
+                            так как открылся прекраснейший <br>
+                            вид на все горы нашей родины!</p>
+                    </div>
+                        <div class="swiper-tit1">
+                            <div class="swiper-img1">
+                                <img src="./img/Ellipse%205.png" alt="">
+                                <div>
+                                    <h3>Орозбаев Л.</h3>
+                                    <h2>Октябрь  2021</h2>
+                                </div>
+
+
+                            </div>
+
+                            <p>В ходе нашей экспедиции <br>
+                                по Кыргызстану заезжали в <br>
+                                национальный парк Ала- <br>
+                                Арча, хорошо прогулялись, <br>
+                                покормили птичек и <br>
+                                пушистую белочку, тропинка <br>
+                                до начала плато зимой <br>
+                                расчищена, путь лёгок и <br>
+                                комфортен, можно <br> полюбоваться видами.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide1">
+                        <div class="swiper-tit1">
+                        <div class="swiper-img1">
+                            <img src="./img/Ellipse%204.png" alt="">
+                            <div>
+                                <h3>Абдиев А.</h3>
+                                <h2>Август 2020</h2>
+                            </div>
+
+
+                        </div>
+
+                        <p>Здравствуйте дорогие мои <br>
+                            друзья! В этой строке <br>
+                            отзывов я хочу написать <br>
+                            о своих ощущениях в походе <br>
+                            из ущ.Чункурчак в <br>
+                            ущ.Бирбулак (Малиновое). <br>
+                            Туда я пошла с группой <br>
+                            собранным "Союз пешеходного <br>
+                            туризма Кыргызстана" и <br>
+                            гидом предоставленным <br>
+                            фирмой. По началу мне <br>]
+                            казалось не таким уж и <br>
+                            интересным,но.... когда <br>
+                            мы перевалили первый перевал <br>
+                            (!) я поняла что все <br>
+                            интересное только начинается,<br>
+                            так как открылся прекраснейший <br>
+                            вид на все горы нашей родины!</p>
+                    </div>
+                        <div class="swiper-tit1">
+                            <div class="swiper-img1">
+                                <img src="./img/Ellipse%205.png" alt="">
+                                <div>
+                                    <h3>Орозбаев Л.</h3>
+                                    <h2>Октябрь  2021</h2>
+                                </div>
+
+
+                            </div>
+
+                            <p>В ходе нашей экспедиции <br>
+                                по Кыргызстану заезжали в <br>
+                                национальный парк Ала- <br>
+                                Арча, хорошо прогулялись, <br>
+                                покормили птичек и <br>
+                                пушистую белочку, тропинка <br>
+                                до начала плато зимой <br>
+                                расчищена, путь лёгок и <br>
+                                комфортен, можно <br> полюбоваться видами.</p>
+                        </div>
+                    </div>
+
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
 
-
-            <div class="point-general__blocks">
-                <div>
-                    <img src="./img/Ellipse%204.png" alt="">
-                    <span>
-                            <h2>Абдиев А.</h2>
-                            <p>Август  2020</p>
-                        </span>
-                </div>
-                <h1>Здравствуйте дорогие мои <br>
-                    друзья! В этой строке <br>
-                    отзывов я хочу написать о <br>
-                    своих ощущениях в походе <br>
-                    из ущ.Чункурчак в <br>
-                    ущ.Бирбулак (Малиновое). <br>
-                    Туда я пошла с группой <br>
-                    собранным "Союз <br>
-                    пешеходного туризма <br>
-                    Кыргызстана" и гидом <br>
-                    предоставленным фирмой. </h1>
-            </div>
         </div>
     </div>
 </section>
@@ -330,6 +497,7 @@
                 <h3>Талас</h3>
                 <h3>Баткен</h3>
                 <h3>Жалал-Абад</h3>
+
             </div>
             <div class="fast-general__tit"></div>
 
@@ -424,7 +592,7 @@
 
 
             <div class="close-general__icons">
-                <img src="./img/Vector%20(1).png" alt="">
+                <span>  <i class="fa-solid fa-paper-plane"></i></span>
                 <span>    <i class="fa-brands fa-twitter"></i></span>
                 <span> <i class="fa-brands fa-whatsapp"></i></span>
                 <span> <i class="fa-brands fa-instagram"></i></span>

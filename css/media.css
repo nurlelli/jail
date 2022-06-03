@@ -1,24 +1,30 @@
 @media (max-width: 1200px) {
- .container {
-   width: 90%;
-   border: 1px solid pink;
- }
+  .container {
+    width: 90%;
+    border: 1px solid pink;
+  }
+
   #cold .cold-general__nav__wha {
     width: 1078px;
   }
+
   #cold .cold-general__icons {
     left: 78px;
   }
+
   #water .water-general__block div h1 {
     padding-left: 450px;
   }
+
   #world .world-general__block img {
     width: 330px;
     height: 330px;
   }
+
   #fast .fast-general__block div input {
     margin-left: 230px;
   }
+
   #fast .fast-general__block button {
     margin-left: 232px;
   }
@@ -26,43 +32,53 @@
   #fast .fast-general__tit {
     width: 900px;
   }
+
   #close .close-general__titles__tit a {
     padding: 0 80px;
   }
 }
-
 @media (max-width: 1024px) {
   #cold .cold-general__nav__wha {
     width: 920px;
   }
+
   #water .water-general__block__titles h6 {
-  font-size: 20px;
-}
+    font-size: 20px;
+  }
+
   #water .water-general__block__titles h5 {
     font-size: 15px;
   }
+
   #water .water-general__box h1 {
     font-size: 20px;
   }
+
   #water .water-general__text__inside {
     height: 350px;
   }
+
   #water .water-general__text h1 {
     font-size: 15px;
   }
+
   #water .water-general__text p {
     font-size: 15px;
   }
+
   #world .world-general__block img {
     width: 294px;
   }
+
   #world .world-general__block--photo__sit {
     width: 294px;
     height: 293px;
   }
+
   #world .world-general__block .img-gen2 {
     padding: 0 35px;
   }
+
   #point .point-general .swiper-slide1 .swiper-tit1 {
     width: 359px;
   }
@@ -70,53 +86,35 @@
   #fast .fast-general__title h2 {
     padding-left: 5rem;
   }
+
   #fast .fast-general__tit {
     width: 743px;
   }
+
   #fast .fast-general__titles h3 {
     font-size: 26px;
   }
+
   #fast .fast-general__block div input {
     margin-left: 168px;
   }
+
   #fast .fast-general__block button {
     margin-left: 171px;
   }
+
   #close .close-general__titles__tit a {
     padding: 0 60px;
   }
-  }
-
-
-
-
-
+}
 @media (max-width: 992px) {
   #cold .cold-general__nav__wha {
     width: 890px;
   }
+
   #cold .cold-general__icons {
     left: -100px;
   }
 }
 
-@media (max-width: 768px) {
-
-}
-
-@media (max-width: 425px) {
-
-}
-
-@media (width: 375px) {
-
-}
-
-@media (width: 320px) {
-
-}
-
-@media (width: 1200px) {
-
-}
-
+/*# sourceMappingURL=media.css.map */

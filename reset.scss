@@ -20,27 +20,12 @@ a {
   font-weight: 700;
   font-size: 20px;
   color: #FFFFFF;
+  border: none;
   transition: .4s;
-  margin-bottom: 90px;
-
+  margin-bottom: 150px;
   &:hover {
     transform: scale(1.1);
   }
 }
 
-@mixin btn2 {
-    position: absolute;
-    top: 5420px;
-  left: 920px;
-    width: 352px;
-    height: 354px;
-    background: #FD8415;
-    border-radius: 15px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    text-align: center;
-    color: #FFFFFF;
-  border: none;
-  }
+
